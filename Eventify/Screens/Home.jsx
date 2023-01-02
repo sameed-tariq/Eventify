@@ -27,6 +27,7 @@ const Home = ({ navigation }) => {
   };
 
   useEffect(() => {
+    console.log("useEffect called");
     getData();
   }, []);
 

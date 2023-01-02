@@ -27,7 +27,7 @@ const AddEvent = ({ navigation }) => {
       .catch((error) => {
         console.log(error.message);
       });
-    navigation.navigate("Home");
+    navigation.push("Home");
   };
 
   return (
